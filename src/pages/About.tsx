@@ -5,8 +5,15 @@
  * file in the root directory of this source tree.
  */
 
-import { h, render } from "preact";
-import App from "./App";
+import { h } from "preact";
+import { RoutableProps } from "preact-router";
 
-document.body.style.margin = "0";
-render(<App />, document.body);
+const pageStyle = {
+  flex: 1,
+}
+
+export default (_: RoutableProps) => (
+  <main style={pageStyle}>
+    About Page
+  </main>
+);

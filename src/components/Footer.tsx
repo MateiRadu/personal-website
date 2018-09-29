@@ -5,8 +5,10 @@
  * file in the root directory of this source tree.
  */
 
-import { h, render } from "preact";
-import App from "./App";
+import { h } from "preact";
 
-document.body.style.margin = "0";
-render(<App />, document.body);
+export default () => (
+  <footer>
+    <h2>Copyright © 2018–present Matei Bogdan Radu</h2>
+  </footer>
+);

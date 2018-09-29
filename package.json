@@ -14,7 +14,8 @@
     "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url ."
   },
   "dependencies": {
-    "preact": "^8.3.1"
+    "preact": "^8.3.1",
+    "preact-router": "^2.6.1"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",

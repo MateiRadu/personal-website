@@ -5,8 +5,13 @@
  * file in the root directory of this source tree.
  */
 
-import { h, render } from "preact";
-import App from "./App";
+import { h } from "preact";
 
-document.body.style.margin = "0";
-render(<App />, document.body);
+export default () => (
+  <header>
+    <h1>Matei Radu</h1>
+    <nav>
+      <a href="/">About</a>
+    </nav>
+  </header>
+);
