@@ -10,16 +10,20 @@
   width: calc(100vw - 24px);
   padding: 0 12px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     padding: 0 24px;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 993px) {
     width: 944px;
   }
 
   &--text {
-    @media (min-width: 768px) {
+    @media (min-width: 577px) {
+      width: 528px;
+    }
+
+    @media (min-width: 769px) {
       width: 720px;
     }
   }
