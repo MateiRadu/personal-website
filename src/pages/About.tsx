@@ -12,7 +12,7 @@ import { Container, Page } from "../components";
 export default (_: RoutableProps) => (
   <Page>
     <Container text>
-      <p>About Page</p>
+      <h2>About me</h2>
     </Container>
   </Page>
 );

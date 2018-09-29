@@ -6,14 +6,10 @@
  */
 
 @import "./style/colors.scss";
+@import "./style/typography.scss";
 
 body {
   margin: 0;
   background-color: $color-background-secondary;
   font-family: "Ubuntu", sans-serif;
-}
-
-a {
-  color: $color-accent;
-  text-decoration: none;
 }

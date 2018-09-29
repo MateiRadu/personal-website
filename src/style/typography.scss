@@ -1,0 +1,54 @@
+/**
+ * Copyright (c) 2018-present, Matei Bogdan Radu <matei.radu.92@gmail.com>
+ *
+ * This source code is licensed under the MIT license found in the LICENSE
+ * file in the root directory of this source tree.
+ */
+
+@import "./colors.scss";
+
+h2 {
+  margin: 24px 0;
+  color: $color-text-primary;
+
+  &:after {
+    content: "";
+    display: block;
+    margin-top: 8px;
+    height: 4px;
+    width: 32px;
+    background-color: $color-accent;
+  }
+
+  &::selection {
+    color: $color-text-secondary;
+    background: rgba($color-accent, 0.7);
+  }
+}
+
+p {
+  color: $color-text-primary;
+  font-size: 18px;
+  line-height: 28px;
+
+  @media (min-width: 769px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &::selection {
+    color: $color-text-secondary;
+    background: rgba($color-accent, 0.7);
+  }
+}
+
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+
+  &::selection {
+    color: $color-text-secondary;
+    background: rgba($color-accent, 0.7);
+  }
+}
