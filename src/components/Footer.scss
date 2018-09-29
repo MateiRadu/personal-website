@@ -14,5 +14,14 @@ footer {
   p {
     color: $color-text-primary-lighter;
     font-size: 14px;
+    line-height: 22px;
+
+    &:first-child {
+      margin-bottom: 12px;
+    }
+
+    &:last-child {
+      margin-top: 12px;
+    }
   }
 }
