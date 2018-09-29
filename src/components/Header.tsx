@@ -15,6 +15,9 @@ export default () => (
       <h1>Matei Radu</h1>
       <nav>
         <a href="/">About</a>
+        {/*<a href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+        <a href="/social">Social</a>*/}
       </nav>
     </Container>
   </header>
