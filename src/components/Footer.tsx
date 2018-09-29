@@ -9,10 +9,14 @@ import { h } from "preact";
 import { Container } from ".";
 import "./Footer.scss";
 
+const projectRepo = "https://github.com/matt-block/personal-website";
+const projectLincese = "https://github.com/matt-block/personal-website/blob/master/LICENSE";
+
 export default () => (
   <footer>
     <Container>
-      <h2>Copyright © 2018–present Matei Bogdan Radu</h2>
+      <p>Copyright © 2016-2018 Matei Bogdan Radu</p>
+      <p>This website's source code is available on <a href={projectRepo}>GitHub</a> under the <a href={projectLincese}>MIT</a> license.</p>
     </Container>
   </footer>
 );

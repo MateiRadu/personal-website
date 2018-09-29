@@ -12,3 +12,8 @@ body {
   background-color: $color-background-secondary;
   font-family: "Ubuntu", sans-serif;
 }
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+}
