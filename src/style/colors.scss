@@ -5,11 +5,4 @@
  * file in the root directory of this source tree.
  */
 
-import { h } from "preact";
-import { RoutableProps } from "preact-router";
-
-export default (_: RoutableProps) => (
-  <main>
-    About Page
-  </main>
-);
+$color-background: #ededed;

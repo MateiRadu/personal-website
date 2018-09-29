@@ -7,6 +7,6 @@
 
 import { h, render } from "preact";
 import App from "./App";
+import "./index.scss";
 
-document.body.style.margin = "0";
 render(<App />, document.body);

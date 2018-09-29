@@ -5,11 +5,11 @@
  * file in the root directory of this source tree.
  */
 
-import { h } from "preact";
-import { RoutableProps } from "preact-router";
+@import "./style/colors.scss";
 
-export default (_: RoutableProps) => (
-  <main>
-    About Page
-  </main>
-);
+body {
+  margin: 0;
+  background-color: $color-background;
+}
+
+main { flex: 1; }
