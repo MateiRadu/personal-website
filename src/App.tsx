@@ -14,16 +14,16 @@ const styles = {
   wrapper: {
     display: "flex",
     minHeight: "100vh",
-    flexDirection: "column",
-  },
-}
+    flexDirection: "column"
+  }
+};
 
 // Waiting for Fragment support in preact.
 export default () => (
   <div style={styles.wrapper}>
     <Header />
     <Router>
-      <About path="/"/>
+      <About path="/" />
     </Router>
     <Footer />
   </div>

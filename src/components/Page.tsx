@@ -9,13 +9,11 @@ import { h, ComponentChildren } from "preact";
 import "./Page.scss";
 
 interface PageProps {
-  children: ComponentChildren,
+  children: ComponentChildren;
 }
 
 export default (props: PageProps) => (
   <main>
-    <div>
-      {props.children}
-    </div>
+    <div>{props.children}</div>
   </main>
 );

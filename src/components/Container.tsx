@@ -9,8 +9,8 @@ import { h, ComponentChildren } from "preact";
 import "./Container.scss";
 
 interface ContainerProps {
-  children: ComponentChildren,
-  text?: boolean,
+  children: ComponentChildren;
+  text?: boolean;
 }
 
 export default (props: ContainerProps) => (
