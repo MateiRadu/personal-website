@@ -1,24 +1,38 @@
 {
   "name": "personal-website",
-  "version": "1.2.1",
-  "description": "A personal portfolio website built with React and Bootstrap.",
+  "version": "2.0.0",
+  "main": "index.js",
   "author": "Matei Bogdan Radu <matei.radu.92@gmail.com>",
   "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/mateiradu/personal-website.git"
   },
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url ."
+  },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "preact": "^8.3.1"
   },
   "devDependencies": {
-    "react-scripts": "1.0.7"
+    "cross-env": "^5.2.0",
+    "husky": "^1.0.1",
+    "lint-staged": "^7.3.0",
+    "parcel-bundler": "^1.10.1",
+    "prettier": "^1.14.3",
+    "typescript": "^3.1.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
