@@ -13,3 +13,7 @@ body {
   background-color: $color-background-secondary;
   font-family: "Ubuntu", sans-serif;
 }
+
+.sr-only {
+  display: none;
+}
