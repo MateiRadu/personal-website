@@ -38,6 +38,10 @@ header {
         margin-right: 0;
         padding-right: 0;
       }
+
+      &:focus {
+        outline-color: $color-accent-contrast-header;
+      }
     }
   }
 }

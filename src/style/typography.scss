@@ -51,4 +51,8 @@ a {
     color: $color-text-secondary;
     background: rgba($color-accent, 0.7);
   }
+
+  &:focus {
+    outline-color: $color-accent-contrast;
+  }
 }
