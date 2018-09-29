@@ -12,4 +12,10 @@ body {
   background-color: $color-background;
 }
 
+main,
+header,
+footer {
+  margin: 0 auto;
+}
+
 main { flex: 1; }

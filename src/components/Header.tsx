@@ -6,12 +6,15 @@
  */
 
 import { h } from "preact";
+import { Container } from ".";
 
 export default () => (
   <header>
-    <h1>Matei Radu</h1>
-    <nav>
-      <a href="/">About</a>
-    </nav>
+    <Container>
+      <h1>Matei Radu</h1>
+      <nav>
+        <a href="/">About</a>
+      </nav>
+    </Container>
   </header>
 );

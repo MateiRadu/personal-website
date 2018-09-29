@@ -6,9 +6,12 @@
  */
 
 import { h } from "preact";
+import { Container } from ".";
 
 export default () => (
   <footer>
-    <h2>Copyright © 2018–present Matei Bogdan Radu</h2>
+    <Container>
+      <h2>Copyright © 2018–present Matei Bogdan Radu</h2>
+    </Container>
   </footer>
 );
