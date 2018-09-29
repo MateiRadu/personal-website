@@ -7,12 +7,12 @@
 
 import { h } from "preact";
 import { RoutableProps } from "preact-router";
-import { Container } from "../components";
+import { Container, Page } from "../components";
 
 export default (_: RoutableProps) => (
-  <main>
+  <Page>
     <Container text>
       <p>About Page</p>
     </Container>
-  </main>
+  </Page>
 );

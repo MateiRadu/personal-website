@@ -5,7 +5,15 @@
  * file in the root directory of this source tree.
  */
 
-export { default as Header } from "./Header";
-export { default as Footer } from "./Footer";
-export { default as Container } from "./Container";
-export { default as Page } from "./Page";
+import { h, ComponentChildren } from "preact";
+import "./Page.scss";
+
+interface PageProps {
+  children: ComponentChildren,
+}
+
+export default (props: PageProps) => (
+  <main>
+    {props.children}
+  </main>
+);
