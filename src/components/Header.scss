@@ -5,9 +5,9 @@
  * file in the root directory of this source tree.
  */
 
-@import "./style/colors.scss";
+@import "../style/colors.scss";
 
-body {
-  margin: 0;
-  background-color: $color-background-secondary;
+header {
+  width: 100vw;
+  background-color: $color-background-primary;
 }

@@ -7,6 +7,7 @@
 
 import { h } from "preact";
 import { Container } from ".";
+import "./Footer.scss";
 
 export default () => (
   <footer>

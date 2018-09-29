@@ -7,6 +7,7 @@
 
 import { h } from "preact";
 import { Container } from ".";
+import "./Header.scss";
 
 export default () => (
   <header>
