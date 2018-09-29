@@ -12,7 +12,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 24px;
+  padding-top: 32px;
+
+  @media (min-width: 577px) {
+    padding-top: 64px;
+  }
 
   > div {
     background-color: $color-background-primary;
