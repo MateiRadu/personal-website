@@ -14,6 +14,8 @@ interface PageProps {
 
 export default (props: PageProps) => (
   <main>
-    {props.children}
+    <div>
+      {props.children}
+    </div>
   </main>
 );
