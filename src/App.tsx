@@ -8,7 +8,7 @@
 import { h } from "preact";
 import { Router } from "preact-router";
 import { Header, Footer } from "./components";
-import { About } from "./pages";
+import { About, Social } from "./pages";
 
 const styles = {
   wrapper: {
@@ -24,6 +24,7 @@ export default () => (
     <Header />
     <Router>
       <About path="/" />
+      <Social path="/social" />
     </Router>
     <Footer />
   </div>

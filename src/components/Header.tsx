@@ -16,8 +16,8 @@ export default () => (
       <nav>
         <a href="/">About</a>
         {/*<a href="/projects">Projects</a>
-        <a href="/blog">Blog</a>
-        <a href="/social">Social</a>*/}
+        <a href="/blog">Blog</a>*/}
+        <a href="/social">Social</a>
       </nav>
     </Container>
   </header>
