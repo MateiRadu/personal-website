@@ -8,14 +8,14 @@
 import { h } from "preact";
 import { RoutableProps } from "preact-router";
 import { Container, Page } from "../components";
-import "./Social.scss";
+import "./Contact.scss";
 
 export default (_: RoutableProps) => (
   <Page>
     <Container text>
       <h2>Other networks</h2>
       <p>You can find me on other networks.</p>
-      <table className="social__list">
+      <table className="contact__list">
         <tbody>
           <tr>
             <td>GitHub</td>
