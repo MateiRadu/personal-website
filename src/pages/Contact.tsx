@@ -7,13 +7,14 @@
 
 import { h } from "preact";
 import { RoutableProps } from "preact-router";
-import { Container, Page } from "../components";
+import { Container, Page, Email } from "../components";
 import "./Contact.scss";
 
 export default (_: RoutableProps) => (
   <Page>
     <Container text>
-      <h2>Other networks</h2>
+      <h2>How to reach me</h2>
+      <Email address="matei.radu.92@gmail.com" />
       <p>You can find me on other networks.</p>
       <table className="contact__list">
         <tbody>
