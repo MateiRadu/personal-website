@@ -24,4 +24,21 @@ footer {
       margin-top: 12px;
     }
   }
+
+  img {
+    margin-left: 12px;
+    height: 64px;
+    width: 64px;
+
+    @media (min-width: 769px) {
+      margin-left: 24px;
+    }
+  }
+
+  .footer__content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
