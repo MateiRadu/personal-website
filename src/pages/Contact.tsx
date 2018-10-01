@@ -14,7 +14,7 @@ export default (_: RoutableProps) => (
   <Page>
     <Container text>
       <h2>How to reach me</h2>
-      <Email address="matei.radu.92@gmail.com" />
+      <Email address="hello@mattblock.tech" />
       <p>You can find me on other networks.</p>
       <table className="contact__list">
         <tbody>
