@@ -30,6 +30,7 @@ p {
   color: $color-text-primary;
   font-size: 18px;
   line-height: 28px;
+  text-align: justify;
 
   @media (min-width: 769px) {
     font-size: 20px;
