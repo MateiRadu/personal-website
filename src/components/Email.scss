@@ -7,10 +7,15 @@
 
 .email {
   p {
+    margin: 32px 0;
     font-weight: bold;
     text-align: left;
     unicode-bidi: bidi-override;
     direction: rtl;
+
+    @media (min-width: 769px) {
+      margin: 48px 0;
+    }
   }
 
   &--centered {
