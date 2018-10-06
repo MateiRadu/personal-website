@@ -22,11 +22,11 @@ export default () => (
           <p>Copyright © 2016-2018 Matei Bogdan Radu.</p>
           <p>
             This website's source code is available on{" "}
-            <a href={projectRepo} target="_blank">
+            <a href={projectRepo} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>{" "}
             under the{" "}
-            <a href={projectLincese} target="_blank">
+            <a href={projectLincese} target="_blank" rel="noopener noreferrer">
               MIT
             </a>{" "}
             license.

@@ -31,7 +31,11 @@ export default (_: RoutableProps) => (
         <p>
           Outside of the Javascript realm, I also work with Kotlin paired with
           Spring Boot at my current company{" "}
-          <a href="https://techdev.io/en/" target="_blank">
+          <a
+            href="https://techdev.io/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             techdev Solutions
           </a>
           . I enjoy following industry best practices in our development

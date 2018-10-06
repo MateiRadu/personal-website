@@ -22,7 +22,11 @@ export default (_: RoutableProps) => (
           <tr>
             <td>GitHub</td>
             <td>
-              <a href="https://github.com/matt-block" target="_blank">
+              <a
+                href="https://github.com/matt-block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 matt-block
               </a>
             </td>
@@ -30,7 +34,11 @@ export default (_: RoutableProps) => (
           <tr>
             <td>Stack Overflow</td>
             <td>
-              <a href="https://stackoverflow.com/u/1887860" target="_blank">
+              <a
+                href="https://stackoverflow.com/u/1887860"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Profile
               </a>
             </td>
@@ -38,7 +46,11 @@ export default (_: RoutableProps) => (
           <tr>
             <td>Twitter</td>
             <td>
-              <a href="https://twitter.com/matt__block" target="_blank">
+              <a
+                href="https://twitter.com/matt__block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 @matt__block
               </a>
             </td>
@@ -49,6 +61,7 @@ export default (_: RoutableProps) => (
               <a
                 href="https://www.linkedin.com/in/mateibogdanradu/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Profile
               </a>
