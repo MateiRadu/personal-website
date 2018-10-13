@@ -11,8 +11,10 @@ formatted with [Prettier][prettier].
 I wanted a simple website with fast load times without sacrificing
 the component-based approach of React. The solution was to use Preact which has
 a much smaller footprint: infact, this website is just shy of 11KB gzipped
-excluding the font which, sadly, adds another 13KB. However, font loading is
-deferred using [font-display][google-font-display] to reduce the time to FMP.
+~~excluding the font which, sadly, adds another 13KB. However, font loading is
+deferred using [font-display][google-font-display] to reduce the time to FMP~~.
+The font face is provided by the system to avoid loading another hefty remote
+resource, just like [GitHub does][github_fonts].
 
 The site also scores 100/100 in Google Chrome's
 [Lighthouse audit tool][lighthouse] Performance test (Chrome build: 69,
@@ -39,6 +41,7 @@ This source code is licensed under the MIT license found in the
 [preact]: https://preactjs.com/
 [lighthouse]: https://developers.google.com/web/tools/lighthouse/
 [google-font-display]: https://developers.google.com/web/updates/2016/02/font-display
+[github_fonts]: http://markdotto.com/2018/02/07/github-system-fonts/
 [license]: https://github.com/matt-block/personal-website/blob/master/LICENSE
 [license_shield]: https://img.shields.io/badge/license-MIT-blue.svg
 [prettier]: https://github.com/prettier/prettier
