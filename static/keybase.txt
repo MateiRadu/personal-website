@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mateiradu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mattblock.tech
+  * I am mateiradu (https://keybase.io/mateiradu) on keybase.
+  * I have a public key ASDGkKFOfy0fGPz4LjX7pp-SEEtXu2eCPgZ-5PY-ytO1DAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ff4e1d168e02c2d4e13d758d8dc333bb39a6786152d333739452b0af6dd7fd50a",
+      "host": "keybase.io",
+      "kid": "0120c690a14e7f2d1f18fcf82e35fba69f92104b57bb67823e067ee4f63ecad3b50c0a",
+      "uid": "5a073432475f4eee152b88ae7ea10219",
+      "username": "mateiradu"
+    },
+    "merkle_root": {
+      "ctime": 1541951836,
+      "hash": "d35253b5d5efef23ee146bfc1d6c1f8bc4fad0d4b3bc5e4279c49117eb8d8fbd7db18a5cd500c5d0ee2581a42d863a606319c8776cebb2b28e56a0d4f0466b4c",
+      "hash_meta": "1d65d977d01ba8b6034b2f7a5f747e8d2e48828adf93cd2746f2c07428187189",
+      "seqno": 3934817
+    },
+    "service": {
+      "entropy": "EftlfMtFIqMRXQ6hN85XqBm5",
+      "hostname": "mattblock.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.9.0"
+  },
+  "ctime": 1541951876,
+  "expire_in": 504576000,
+  "prev": "c06ee42f1a92baabe517adb0eea787dc641bd8b09883062e976e72955fd2ce37",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxpChTn8tHxj8+C41+6afkhBLV7tngj4GfuT2PsrTtQwKp3BheWxvYWTESpcCFsQgwG7kLxqSuqvlF62w7qeH3GQb2LCYgwYul25ylV/SzjfEIG8QFv5Bqu+Br86zVEOkvp0kPZTYZhINWfNGEUG3wgGQAgHCo3NpZ8RAex1Yks3wo4UezHcy3tHSUr8DfPrP/o0nZ/U5s7gmjuoJS7wKOP+zH/l7DIhvDRhuon3pG7T5U3/G2AwISHv7BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGss5fAiwk05mlqKSlUhJ5bRSaCyQ3lS4Ac31131eFwko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mateiradu
+
+==================================================================
