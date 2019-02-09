@@ -19,7 +19,7 @@ export default () => (
     <Container>
       <div className="footer__content-wrapper">
         <div>
-          <p>Copyright © 2016-2018 Matei Bogdan Radu.</p>
+          <p>Copyright © 2016-2019 Matei Bogdan Radu.</p>
           <p>
             This website's source code is available on{" "}
             <a href={projectRepo} target="_blank" rel="noopener noreferrer">
