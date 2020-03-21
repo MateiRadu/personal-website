@@ -21,6 +21,13 @@ jobs:
           # Latest LTS
           node-version: '12.x'
 
+      - uses: actions/cache@v1.1.2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install necessary tools
         run: npm install
 
@@ -28,7 +35,7 @@ jobs:
         run: npm run build
 
       - name: Deploy with CapRover CLI
-        run: npx caprover deploy
+        run: npm run deploy
         env:
           CAPROVER_URL: ${{ secrets.CAPROVER_URL }}
           CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
