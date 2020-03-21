@@ -26,5 +26,5 @@ jobs:
         env:
           CAPROVER_URL: ${{ secrets.CAPROVER_URL }}
           CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
-          CAPROVER_APP: ${{ steps.CAPROVER_APP }}
+          CAPROVER_APP: ${{ secrets.CAPROVER_APP }}
           CAPROVER_BRANCH: master
