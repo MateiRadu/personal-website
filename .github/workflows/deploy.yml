@@ -35,7 +35,7 @@ jobs:
         run: npm run build
 
       - name: Deploy with CapRover CLI
-        run: npm run deploy
+        run: npx caprover deploy
         env:
           CAPROVER_URL: ${{ secrets.CAPROVER_URL }}
           CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
