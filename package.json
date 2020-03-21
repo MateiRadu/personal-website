@@ -9,8 +9,7 @@
   "author": "Matei Bogdan Radu <opensource@mateiradu.dev>",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js",
-    "deploy": "caprover deploy"
+    "build": "node build.js"
   },
   "devDependencies": {
     "@node-minify/cli": "^5.3.0",
