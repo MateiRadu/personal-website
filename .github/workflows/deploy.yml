@@ -1,0 +1,30 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deploy
+    # Latest LTS
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.0.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1.1.0
+        with:
+          # Latest LTS
+          node-version: '12.x'
+
+      - name: Deploy with CapRover CLI
+        run: npx caprover deploy
+        env:
+          CAPROVER_URL: ${{ secrets.CAPROVER_URL }}
+          CAPROVER_PASSWORD: ${{ secrets.CAPROVER_PASSWORD }}
+          CAPROVER_APP: ${{ steps.CAPROVER_APP }}
+          CAPROVER_BRANCH: master
