@@ -17,6 +17,8 @@ body {
 
 .app__content { flex: 1; }
 
+.app__footer { display: none; }
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
