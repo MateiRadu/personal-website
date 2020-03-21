@@ -17,8 +17,6 @@ body {
 
 .app__content { flex: 1; }
 
-.app__footer { display: none; }
-
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -106,3 +104,23 @@ body {
 }
 
 .contact-list__item a:hover { text-decoration: underline; }
+
+.footer {
+  display: flex;
+  align-items: center;
+
+  height: 64px;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover { text-decoration: underline; }
