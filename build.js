@@ -18,6 +18,9 @@ function build() {
     compressor: htmlMinifier,
     input: path.resolve(SRC_DIR, 'index.html'),
     output: path.resolve(BUILD_DIR, 'index.html'),
+    options: {
+      conservativeCollapse: true
+    }
   })
 
   // CSS
