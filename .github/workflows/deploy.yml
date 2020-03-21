@@ -28,12 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install necessary tools
-        run: npm install
-
-      - name: Build production release
-        run: npm run build
-
       - name: Deploy with CapRover CLI
         run: npx caprover deploy
         env:
