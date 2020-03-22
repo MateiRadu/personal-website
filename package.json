@@ -9,13 +9,11 @@
   "author": "Matei Bogdan Radu <opensource@mateiradu.dev>",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps"
   },
   "devDependencies": {
-    "@node-minify/cli": "^5.3.0",
-    "@node-minify/cssnano": "^5.3.0",
-    "@node-minify/html-minifier": "^5.3.0",
     "caprover": "^2.1.1",
-    "rimraf": "^3.0.2"
+    "parcel-bundler": "^1.12.4"
   }
 }
