@@ -3,6 +3,6 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-FROM socialengine/nginx-spa:latest
+FROM steebchen/nginx-spa:latest
 COPY --from=build ./dist /app/
 RUN chmod -R 777 /app
